@@ -1,0 +1,129 @@
+    /* @import url(../reset.css); */
+    
+    h1 {
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .my-table {
+        width: 90%;
+        margin: 100px auto 0 auto;
+        font-size: 20px;
+        color: papayawhip;
+        text-align: center;
+        border: 5px solid rgb(126, 185, 243);
+    }
+    
+    tbody>tr:nth-child(2n) {
+        height: 50px;
+        background-color: rgb(184, 180, 180);
+    }
+    
+    tbody>tr:nth-child(2n-1) {
+        height: 50px;
+        background-color: rgb(144, 145, 146);
+    }
+    
+    #thead>tr {
+        height: 65px;
+        background-color: rgb(81, 180, 238);
+        color: rgb(248, 251, 255);
+        letter-spacing: 2px;
+    }
+    
+    .row {
+        margin: 0;
+    }
+    
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: rgb(0, 0, 0);
+        background-color: lightgrey;
+    }
+    
+    a {
+        color: #000000;
+    }
+    
+    a:hover {
+        color: #727579;
+    }
+    
+    .container {
+        height: 95vh;
+        background-color: darksalmon
+    }
+    
+    .chat-box {
+        background-color: burlywood;
+        height: 85%;
+        overflow-y: scroll;
+    }
+    
+    .chat-box::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .message-box {
+        background-color: cornflowerblue;
+        height: 15%;
+        padding: 5px;
+    }
+    
+    .message {
+        resize: none;
+    }
+    
+    .mesinput {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 5px 20px #be1414;
+    }
+    
+    .one-mess {
+        min-height: 40px;
+        font-size: 24px;
+    }
+    
+    .user-info {
+        height: 55%;
+        background-color: darkkhaki;
+        overflow-y: scroll;
+    }
+    
+    .user-info::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .users-online {
+        height: 35%;
+        background-color: rgb(156, 148, 32);
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .bg-col1 {
+        background-color: rgba(0, 100, 0, 0.267);
+    }
+    
+    .bg-col2 {
+        background-color: rgba(0, 47, 100, 0.267);
+    }
+    
+    .bg-col3 {
+        background-color: rgba(100, 45, 0, 0.267);
+    }
+    
+    .bg-col4 {
+        background-color: rgba(100, 0, 58, 0.267);
+    }
+    
+    .bg-col5 {
+        background-color: rgba(100, 0, 0, 0.267);
+    }
+    
+    .bg-col6 {
+        background-color: rgba(27, 0, 100, 0.267);
+    }
